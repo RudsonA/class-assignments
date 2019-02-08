@@ -3,18 +3,22 @@
 function function1 () {
     let var2str = "Setting variable to string"; 
     console.log(var2str);
+    function2()
 }
 
+let secondVar = "Setting my second variable";
 function function2 () {
-    let secondVar = "Setting my second variable";
+    // let secondVar = "Setting my second variable";
     console.log(secondVar);
-    return secondVar;
+    function3 (x);
+    // return secondVar;
 }
 
 let x = 1
 function function3 (x) {
     // let x = 1
-    console.log(function2() + " + " + x);
+    console.log(secondVar + " + " + x);
+    function4(num);
 }
 
 let y = "This argument is more than 5 characters"
@@ -28,6 +32,7 @@ function function4 (num) {
     } else {
         console.log(false);
     }
+    function5 (num)
 }
  
 function function5 (num) {
@@ -40,7 +45,4 @@ function function5 (num) {
 }
 
 function1()
-function2()
-function3(x)
-function4(num)
-function5(num)
+
