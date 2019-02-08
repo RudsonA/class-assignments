@@ -20,3 +20,6 @@ Function 5
 - Create a loop that runs as many times as the length of the string
 - each run console log a string
 - 
+
+
+Answer: https://codepen.io/axecopfire/pen/MLrooQ
