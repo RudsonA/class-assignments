@@ -1,0 +1,22 @@
+Function 1
+- Set a variable to a string
+- Console log that variable
+- Call the next function
+
+Function 2
+- Set a variable to a string
+- Console log that new variable
+- Call the next function with variable as parameter
+
+Function 3
+- Console log variable set in last function with the number 1 added to the end of the string
+- Call next function with variable as parameter
+
+Function 4
+- If argument is less than 5 characters long console log true else console log false
+- call next function with variable as parameter
+
+Function 5
+- Create a loop that runs as many times as the length of the string
+- each run console log a string
+- 
